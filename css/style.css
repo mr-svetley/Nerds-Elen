@@ -53,7 +53,7 @@ li{
     list-style-type: none;
 }
 
-.header-menu_list{
+.header_menu{
     display: flex;
     justify-content: space-between;
     width: 485px;
@@ -65,7 +65,12 @@ li{
     color: #000;
 }
 
+.header_menu-item{
+    text-decoration: none;
+}
+
 .header_bag{
+    display: flex;
     margin-left: auto;
 }
 
@@ -78,6 +83,10 @@ li{
     background-position: 50% 50%;
     width: 15px;
     height: 15px;
+}
+
+.header_bag-link{
+    text-decoration: none;
 }
 
 .slider{
@@ -135,9 +144,11 @@ li{
     
     font-size: 16px;
     line-height: 18px;
-    
 }
 
+.slider_slide-link{
+    text-decoration: none;
+}
 
 
 
