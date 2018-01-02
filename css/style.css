@@ -44,9 +44,11 @@ body{
 .header_nav{
     display: flex;
     align-items: center;
-    width: 1160px;
+    width: 1200px;
     height: 125px;
     margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .header_logo{
