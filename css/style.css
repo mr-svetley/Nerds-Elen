@@ -369,12 +369,18 @@ body{
     width: auto;
 }
 
-.services{
+.services_list{
     display: flex;
+    margin-top: 0;
+}
+
+.services{
     box-sizing: border-box;
     width: auto;
-    padding: 0 51px;
+    padding: 0 11px;
     background-color: #fff;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
 }
 
 .services_cards{
@@ -408,5 +414,145 @@ body{
 .services_button{
     margin-top: 16px;
 }
+
+.about-us{
+    display: flex;
+    width: auto;
+    background-color: #fff;
+}
+
+.about-us_info{
+    width: 660px;
+    padding-top: 120px;
+    margin-left: 51px;
+    font-family: "Roboto", "Arial", sans-serif;
+}
+
+.about-us_info-title{
+    margin-top: 0;
+    margin-bottom: 32px;
+    
+    font-size: 45px;
+    line-height: 45px;
+    font-weight: 500;
+}
+
+.about-us_info-text{
+    margin-top: 0;
+    
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: normal;
+}
+
+.about-us_info-titlelist{
+    display: block;
+    margin-top: 40px;
+    
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+/*
+.about-us_info-list{
+    position: relative;
+}
+*/
+
+.about-us_info-item{
+    position: relative;
+    list-style: none;
+    padding-top: 7px;
+    margin-left: -2px;
+    
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: normal;
+}
+
+.about-us_info-item:not(:first-child){
+   padding-top: 24px; 
+}
+
+.about-us_info-item:before{
+    display: block;
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    width: 10px;
+    height: 2px;
+    color: red;
+    
+}
+
+.about-us_stat{
+    display: flex;
+    flex-direction: column;
+    width: 365px;
+    margin-top: 85px;
+    margin-left: 140px;
+    
+   font-family: "Roboto", "Arial", sans-serif; 
+}
+
+.about-us_stat-list{
+    display: flex;
+    padding-left: 0;
+}
+
+.about-us_stat-titlelist{
+    margin-top: 36px;
+    margin-left: 20px;
+    
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.about-us_stat-item{
+    list-style: none;
+    width: 95px;
+    margin-right: 25px;
+}
+
+.about-us_stat-percent{
+    display: block;
+    position: relative;
+    margin-top: 42px;
+    
+    font-size: 45px;
+    line-height: 10px;
+    font-weight: bold;
+}
+
+.about-us_stat-percent--sup{
+    display: inline-block;
+    position: absolute;
+    left: 79px;
+    top: -9px;
+    font-size: 25px;
+
+}
+
+.min{
+    left: 51px;
+    top: -9px;
+    font-size: 25px;
+}
+
+.about-us_stat-conditions{
+    margin-top: 38px;
+    
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: normal;
+}
+
+
+
 
 
