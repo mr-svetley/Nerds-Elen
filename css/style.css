@@ -376,13 +376,13 @@ body{
 
 .services{
     box-sizing: border-box;
-    width: auto;
-    padding: 0 11px;
+    width: 1240px;
+    margin: 0 auto;
     background-color: #fff;
     padding-bottom: 20px;
 }
 
-.services_cards{
+.services_card{
     box-sizing: border-box;
     width: 300px;
     padding-top: 80px;
@@ -392,7 +392,7 @@ body{
     font-family: "Roboto", "Arial", sans-serif;
 }
     
-.services-title{
+.service-card_title{
     margin: 0;
     padding-top: 21px;
     
@@ -402,7 +402,7 @@ body{
     text-transform: uppercase;
 }
 
-.services-text{
+.service-card_text{
     width: 246px;
     
     font-size: 16px;
@@ -416,14 +416,15 @@ body{
 
 .about-us{
     display: flex;
-    width: auto;
+    width: 1240px;
+    margin: 0 auto;
     background-color: #fff;
 }
 
 .about-us_info{
     width: 660px;
     padding-top: 120px;
-    margin-left: 51px;
+    margin-left: 42px;
     font-family: "Roboto", "Arial", sans-serif;
 }
 
@@ -436,9 +437,7 @@ body{
     font-weight: 500;
 }
 
-.about-us_info-text{
-    margin-top: 0;
-    
+.about-us_info-text{  
     font-size: 16px;
     line-height: 24px;
     font-weight: normal;
@@ -463,8 +462,8 @@ body{
 .about-us_info-item{
     position: relative;
     list-style: none;
-    padding-top: 7px;
-    margin-left: -2px;
+    padding-top: 9px;
+    margin-left: -5px;
     
     font-size: 16px;
     line-height: 24px;
@@ -492,7 +491,7 @@ body{
     flex-direction: column;
     width: 365px;
     margin-top: 85px;
-    margin-left: 140px;
+    margin-left: 139px;
     
    font-family: "Roboto", "Arial", sans-serif; 
 }
@@ -502,9 +501,9 @@ body{
     padding-left: 0;
 }
 
-.about-us_stat-titlelist{
-    margin-top: 36px;
-    margin-left: 20px;
+.about-us_stat-title-list{
+    margin-top: 37px;
+    margin-left: 17px;
     
     font-size: 16px;
     line-height: 24px;
@@ -515,7 +514,7 @@ body{
 .about-us_stat-item{
     list-style: none;
     width: 95px;
-    margin-right: 25px;
+    margin-right: 23px;
 }
 
 .about-us_stat-percent{
@@ -534,7 +533,6 @@ body{
     left: 79px;
     top: -9px;
     font-size: 25px;
-
 }
 
 .min{
