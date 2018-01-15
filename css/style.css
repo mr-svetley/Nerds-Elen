@@ -391,7 +391,24 @@ body{
     
     font-family: "Roboto", "Arial", sans-serif;
 }
-    
+
+.service-card_image{
+    width: 300px;
+    height: 146px;
+}
+
+.service-card_image--1{
+    background-image: url("../img/service-1.png");
+}
+
+.service-card_image--2{
+    background-image: url("../img/service-2.png");
+}
+
+.service-card_image--3{
+    background-image: url("../img/service-3.png");
+}
+
 .service-card_title{
     margin: 0;
     padding-top: 21px;
@@ -437,15 +454,17 @@ body{
     font-weight: 500;
 }
 
-.about-us_info-text{  
+.about-us_info-text{
+    margin-top: 34px;
+    
     font-size: 16px;
     line-height: 24px;
     font-weight: normal;
 }
 
-.about-us_info-titlelist{
+.about-us_info-title-list{
     display: block;
-    margin-top: 40px;
+    margin-top: 38px;
     
     font-size: 16px;
     line-height: 24px;
