@@ -397,6 +397,7 @@ body{
     height: 146px;
 }
 
+/*
 .service-card_image--1{
     background-image: url("../img/service-1.png");
 }
@@ -408,6 +409,7 @@ body{
 .service-card_image--3{
     background-image: url("../img/service-3.png");
 }
+*/
 
 .service-card_title{
     margin: 0;
