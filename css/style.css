@@ -148,7 +148,12 @@ body{
 
 .main{
     width: auto;
-    
+
+    background-color: #fff;
+}
+
+.main_background{
+    width: auto;
     background-color: #eee;
 }
 
@@ -371,25 +376,27 @@ body{
 
 .services_list{
     display: flex;
-    margin-top: 0;
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
 }
 
 .services{
     box-sizing: border-box;
-    width: 1240px;
+    width: 1200px;
     margin: 0 auto;
     background-color: #fff;
-    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 80px;
+    
+    font-family: "Roboto", "Arial", sans-serif;
 }
 
 .services_card{
     box-sizing: border-box;
     width: 300px;
-    padding-top: 80px;
     margin-right: 101px;
-    list-style: none;
-    
-    font-family: "Roboto", "Arial", sans-serif;
 }
 
 .service-card_image{
@@ -422,29 +429,28 @@ body{
 }
 
 .service-card_text{
-    width: 246px;
-    
+    width: 246px;   
     font-size: 16px;
-    font-weight: regular;
+    font-weight: normal;
     line-height: 24px;
-}
-
-.services_button{
-    margin-top: 16px;
+    margin-bottom: 32px;
 }
 
 .about-us{
     display: flex;
-    width: 1240px;
+    box-sizing: border-box;
+    width: 1200px;
     margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 156px;
     background-color: #fff;
+    
+    font-family: "Roboto", "Arial", sans-serif;
 }
 
 .about-us_info{
     width: 660px;
-    padding-top: 120px;
-    margin-left: 42px;
-    font-family: "Roboto", "Arial", sans-serif;
 }
 
 .about-us_info-title{
@@ -474,17 +480,16 @@ body{
     text-transform: uppercase;
 }
 
-/*
+
 .about-us_info-list{
-    position: relative;
+    padding-left: 36px;
 }
-*/
+
 
 .about-us_info-item{
     position: relative;
     list-style: none;
     padding-top: 9px;
-    margin-left: -5px;
     
     font-size: 16px;
     line-height: 24px;
@@ -511,20 +516,16 @@ body{
     display: flex;
     flex-direction: column;
     width: 365px;
-    margin-top: 85px;
-    margin-left: 139px;
+    margin-top: -34px;
+    margin-left: 149px;
     
    font-family: "Roboto", "Arial", sans-serif; 
-}
-
-.about-us_stat-list{
-    display: flex;
-    padding-left: 0;
 }
 
 .about-us_stat-title-list{
     margin-top: 37px;
     margin-left: 17px;
+    margin-bottom: 24px;
     
     font-size: 16px;
     line-height: 24px;
@@ -532,19 +533,25 @@ body{
     text-transform: uppercase;
 }
 
+.about-us_stat-list{
+    display: flex;
+    padding-left: 0;
+}
+
 .about-us_stat-item{
     list-style: none;
     width: 95px;
-    margin-right: 23px;
+    margin-right: 25px;
 }
 
 .about-us_stat-percent{
-    display: block;
+    display: inline-block;
     position: relative;
-    margin-top: 42px;
-    
+    margin-bottom: 3px;
+    padding-right: 15px;
+
     font-size: 45px;
-    line-height: 10px;
+    line-height: 45px;
     font-weight: bold;
 }
 
@@ -556,15 +563,15 @@ body{
     font-size: 25px;
 }
 
+/*
 .min{
     left: 51px;
     top: -9px;
     font-size: 25px;
 }
+*/
 
 .about-us_stat-conditions{
-    margin-top: 38px;
-    
     font-size: 16px;
     line-height: 18px;
     font-weight: normal;
