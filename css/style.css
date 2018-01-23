@@ -443,7 +443,7 @@ body{
     margin: 0 auto;
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 156px;
+    padding-top: 122px;
     background-color: #fff;
     
     font-family: "Roboto", "Arial", sans-serif;
@@ -451,6 +451,7 @@ body{
 
 .about-us_info{
     width: 660px;
+    margin-top: 34px;
 }
 
 .about-us_info-title{
@@ -516,7 +517,6 @@ body{
     display: flex;
     flex-direction: column;
     width: 365px;
-    margin-top: -34px;
     margin-left: 149px;
     
    font-family: "Roboto", "Arial", sans-serif; 
@@ -524,7 +524,7 @@ body{
 
 .about-us_stat-title-list{
     margin-top: 37px;
-    margin-left: 17px;
+    margin-left: 19px;
     margin-bottom: 24px;
     
     font-size: 16px;
@@ -536,19 +536,17 @@ body{
 .about-us_stat-list{
     display: flex;
     padding-left: 0;
+    width: 360px;
+    list-style: none;
 }
 
-.about-us_stat-item{
-    list-style: none;
-    width: 95px;
-    margin-right: 25px;
+.about-us_stat-item{ 
+    width: 120px;
 }
 
 .about-us_stat-percent{
     display: inline-block;
-    position: relative;
-    margin-bottom: 3px;
-    padding-right: 15px;
+    margin-bottom: 4px;
 
     font-size: 45px;
     line-height: 45px;
@@ -557,19 +555,11 @@ body{
 
 .about-us_stat-percent--sup{
     display: inline-block;
-    position: absolute;
-    left: 79px;
-    top: -9px;
+    vertical-align: top;
+    
+    line-height: 25px;
     font-size: 25px;
 }
-
-/*
-.min{
-    left: 51px;
-    top: -9px;
-    font-size: 25px;
-}
-*/
 
 .about-us_stat-conditions{
     font-size: 16px;
