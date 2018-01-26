@@ -152,12 +152,12 @@ body{
     background-color: #fff;
 }
 
-.main_background{
+.slider{
     width: auto;
     background-color: #eee;
 }
 
-.slider{
+.slider_wrapper{
     position: relative;
     width: 1160px;
     margin: 0 auto;
@@ -389,8 +389,20 @@ body{
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 80px;
-    
+	position: relative;
+
     font-family: "Roboto", "Arial", sans-serif;
+}
+
+.services::after{
+	display: block;
+	content: "";
+	position: absolute;
+	width: 1160px;
+	height: 2px;
+	background-color: #eee;
+	top: 508px;
+	left: 20px;
 }
 
 .services_card{
@@ -403,20 +415,6 @@ body{
     width: 300px;
     height: 146px;
 }
-
-/*
-.service-card_image--1{
-    background-image: url("../img/service-1.png");
-}
-
-.service-card_image--2{
-    background-image: url("../img/service-2.png");
-}
-
-.service-card_image--3{
-    background-image: url("../img/service-3.png");
-}
-*/
 
 .service-card_title{
     margin: 0;
@@ -481,36 +479,32 @@ body{
     text-transform: uppercase;
 }
 
-
 .about-us_info-list{
-    padding-left: 36px;
+    position: relative;
+	padding-left: 0;
 }
-
 
 .about-us_info-item{
     position: relative;
     list-style: none;
     padding-top: 9px;
+	padding-left: 36px;
     
     font-size: 16px;
     line-height: 24px;
     font-weight: normal;
+	margin-bottom: 15px;
 }
 
-.about-us_info-item:not(:first-child){
-   padding-top: 24px; 
-}
-
-.about-us_info-item:before{
+.about-us_info-item::before{
     display: block;
     content: "";
     position: absolute;
-    left: 20px;
-    top: 10px;
-    width: 10px;
+    left: 0;
+    top: 19px;
+    width: 25px;
     height: 2px;
-    color: red;
-    
+    background-color: #fb565a;
 }
 
 .about-us_stat{
