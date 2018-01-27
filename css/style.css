@@ -510,8 +510,8 @@ body{
 .about-us_stat{
     display: flex;
     flex-direction: column;
-    width: 365px;
-    margin-left: 149px;
+    width: 360px;
+    margin-left: auto;
     
    font-family: "Roboto", "Arial", sans-serif; 
 }
