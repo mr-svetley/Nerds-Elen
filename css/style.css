@@ -389,6 +389,7 @@ body{
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 80px;
+	padding-bottom: 82px;
 	position: relative;
 
     font-family: "Roboto", "Arial", sans-serif;
@@ -401,7 +402,7 @@ body{
 	width: 1160px;
 	height: 2px;
 	background-color: #eee;
-	top: 508px;
+	bottom: 0;
 	left: 20px;
 }
 
@@ -441,7 +442,7 @@ body{
     margin: 0 auto;
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 122px;
+    padding-top: 40px;
     background-color: #fff;
     
     font-family: "Roboto", "Arial", sans-serif;
@@ -480,7 +481,6 @@ body{
 }
 
 .about-us_info-list{
-    position: relative;
 	padding-left: 0;
 }
 
