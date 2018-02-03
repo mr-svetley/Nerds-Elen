@@ -650,20 +650,20 @@ body{
 }
 
 .our-projects_list-logo--academy{
-	background-image: url(/img/client-1.png);
+	background-image: url(img/client-1.png);
 	background-position: 50% 70%;
 }
 
 .our-projects_list-logo--borodinski{
-	background-image: url(/img/client-2.png);
+	background-image: url(img/client-2.png);
 }
 
 .our-projects_list-logo--pink{
-	background-image: url(/img/client-3.png);
+	background-image: url(img/client-3.png);
 }
 
 .our-projects_list-logo--mishka{
-	background-image: url(/img/client-4.png);
+	background-image: url(img/client-4.png);
 	background-position: 35% 70%;
 }
 
