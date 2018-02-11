@@ -155,6 +155,8 @@ body{
 .slider{
     width: auto;
     background-color: #eee;
+	padding-left: 20px;
+    padding-right: 20px;
 }
 
 .slider_wrapper{
@@ -437,15 +439,28 @@ body{
 
 .about-us{
     display: flex;
+	position: relative;
     box-sizing: border-box;
     width: 1200px;
     margin: 0 auto;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 40px;
+	padding-bottom: 44px;
     background-color: #fff;
     
     font-family: "Roboto", "Arial", sans-serif;
+}
+
+.about-us::after{
+	display: block;
+	content: "";
+	position: absolute;
+	width: 1160px;
+	height: 2px;
+	background-color: #eee;
+	bottom: 0;
+	left: 20px;
 }
 
 .about-us_info{
@@ -561,7 +576,103 @@ body{
     font-weight: normal;
 }
 
+.our-projects{
+    box-sizing: border-box;
+	position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 28px;
+	padding-bottom: 27px;
+    background-color: #fff;
+    
+}
 
+.our-projects::after{
+	display: block;
+	content: "";
+	position: absolute;
+	width: 1160px;
+	height: 2px;
+	background-color: #eee;
+	bottom: 0;
+	left: 20px;
+}
 
+.our-projects_list{
+	display: flex;
+	list-style: none;
+	padding-left: 0;
+}
+
+.our-projects_list-item{
+	position: relative;
+	width: 240px;
+	height: 97px;
+}
+
+.our-projects_list-item:not(:last-of-type)::after{
+	content: "";
+	display: block;
+	position: absolute;
+	width: 2px;
+	height: 55px;
+	background-color: #eee;
+	top: 15px;
+	right: 0;
+	pointer-events: none;
+}
+
+.our-projects_list-item:first-of-type{
+	padding-left: 10px;
+}
+
+.our-projects_list-item:not(:first-of-type){
+	padding-left: 30px;
+}
+
+.our-projects_list-item:not(:last-of-type){
+	padding-right: 30px;
+}
+
+.our-projects_list-item:last-of-type{
+	padding-left: 40px;
+}
+
+.our-projects_list-logo{
+	display: block;
+	width: 240px;
+	height: 97px;
+	background-repeat: no-repeat;
+	background-position: center;
+	opacity: 0.2;
+}
+
+.our-projects_list-logo--academy{
+	background-image: url("../img/client-1.png");
+	background-position: 50% 70%;
+}
+
+.our-projects_list-logo--borodinski{
+	background-image: url("../img/client-2.png");
+}
+
+.our-projects_list-logo--pink{
+	background-image: url("../img/client-3.png");
+}
+
+.our-projects_list-logo--mishka{
+	background-image: url("../img/client-4.png");
+	background-position: 35% 70%;
+}
+
+.our-projects_list-logo:hover{
+	opacity: 1;
+}
+
+.our-projects_list-logo:active{
+	opacity: 0.1;
+}
 
 
