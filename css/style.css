@@ -155,13 +155,14 @@ body{
 .slider{
     width: auto;
     background-color: #eee;
-	padding-left: 20px;
-    padding-right: 20px;
 }
 
 .slider_wrapper{
+	box-sizing: border-box;
     position: relative;
-    width: 1160px;
+    width: 1200px;
+	padding-left: 20px;
+    padding-right: 20px;
     margin: 0 auto;
     margin-top: -38px;
 }
@@ -676,7 +677,6 @@ body{
 }
 
 .our-contacts{
-	box-sizing: border-box;
 	position: relative;
 	height: 415px;
 	margin: 0 auto;
@@ -689,6 +689,7 @@ body{
 }
 
 .our-contacts_centerer{
+	box-sizing: border-box;
 	position: relative;
 	width: 1200px;
     margin: 0 auto;
@@ -699,10 +700,10 @@ body{
 .our-contacts_info{
 	box-sizing: border-box;
 	position: absolute;
-	left: 43px;
+	left: 23px;
 	top: 53px;
 	width: 316px;
-	height: 308px;
+	min-height: 308px;
 	padding-top: 50px;
 	padding-left: 48px;
 	background-color: #fff;
@@ -719,7 +720,7 @@ body{
 .our-contacts_coordinate{
 	font-size: 16px;
     line-height: 18px;
-    font-weight: regular;
+    font-weight: normal;
 	color: #666666;
 }
 
@@ -740,7 +741,6 @@ body{
 .footer{
 	width: auto;
     background-color: #fff;
-	padding-top: 69px;
 	padding-bottom: 69px;
 }
 
@@ -751,6 +751,7 @@ body{
     margin: 0 auto;
     padding-left: 20px;
     padding-right: 20px;
+	padding-top: 69px;
 }
 
 .our-socials_list{
@@ -762,7 +763,7 @@ body{
 	
 }
 
-.our-socials_list-logo{
+.our-socials_link{
 	display: flex;
 	width: 80px;
 	height: 80px;
@@ -773,36 +774,36 @@ body{
 	margin-right: 10px;
 }
 
-.our-socials_list-logo:hover{
+.our-socials_link:hover{
 	background-color: #e74246;
 }
 
-.our-socials_list-logo:active{
+.our-socials_link:active{
 	background-color: #d7373b;
 }
 
-.our-socials_list-logo::after{
+.our-socials_link::after{
 	content: "";
 	margin: auto;
 }
 
-.our-socials_list-logo:active::after{
+.our-socials_link:active::after{
 	opacity: 0.3;
 }
 
-.our-socials_list-logo--vk::after{
+.our-socials_link--vk::after{
 	width: 26px;
 	height: 15px;
 	background-image: url("../img/vk-icon.svg");
 }
 
-.our-socials_list-logo--fb::after{
+.our-socials_link--fb::after{
 	width: 12px;
 	height: 22px;
 	background-image: url("../img/fb-icon.svg");
 }
 
-.our-socials_list-logo--inst::after{
+.our-socials_link--inst::after{
 	width: 21px;
 	height: 21px;
 	background-image: url("../img/insta-icon.svg");
@@ -817,14 +818,14 @@ body{
 .our-socials_preferenses-title{
 	font-size: 36px;
     line-height: 36px;
-    font-weight: regular;
+    font-weight: bold;
 	color: #000;
 }
 
 .our-socials_preferenses-text{
 	font-size: 16px;
     line-height: 10px;
-    font-weight: regular;
+    font-weight: normal;
 	color: #444;
 }
 
