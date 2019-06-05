@@ -811,3 +811,236 @@ body {
 .header_name{
   
 }
+
+.price-filter {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #000000;
+    padding-left: 50px;
+}
+
+.filter-item {
+    margin: 0;
+    padding: 0;
+    
+    border: none;
+    /*width: 0px;
+    margin: 0px auto;*/
+}
+
+.range-filter {
+    width: 260px;
+    margin-top: 49px;
+    margin-bottom: 49px;
+}
+
+.filter-item legend {
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.range-controls {
+    position: relative;
+    height: 41px;
+    margin-bottom: 15px;
+    padding-top: 39px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+
+.range-controls .scale {
+    height: 2px;
+    background: #d7dcde;
+}
+
+.range-controls .bar {
+    width: 70%;
+    height: 2px;
+    
+    background: #00ca74;
+}
+
+.range-controls .toggle {
+    position: absolute;
+    top: 31px;
+    left: 0;
+    
+    width: 4px;
+    height: 4px;
+    padding: 0;
+    
+    border: 8px solid #ffffff;
+    background-color: #ababab;
+    box-shadow: 0 2px 1px #cfcfcf;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.range-controls .toggle-min {
+    left: 18px;
+}
+
+.range-controls .toggle-max {
+    left: 160px;
+}
+
+.price-controls{
+    font-size: 0;
+}
+
+.price-controls label {
+    display: inline-block;
+    width: 50%;
+    
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.price-controls input {
+    width: 60px;
+    padding: 8px 10px;
+    margin-left: 10px;
+    
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: #283136;
+    background-color: #f1f1f1;
+    
+    border: none;
+    border-radius: 5px;
+}
+
+.price-controls input:hover {
+   background-color: #dfdfdf; 
+}
+
+.price-controls input:active {
+    background-color: #d5d5d5;
+}
+
+.price-controls input:focus {
+    background-color: #ffffff;
+}
+
+.max-price {
+    text-align: right;
+}
+
+.filter-list {
+    margin: 0;
+    padding: 0;
+    border: none;
+    
+}
+
+.filter-list legend {
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.filter-list input[type="radio"] {
+    display: none;
+}
+
+.filter-list input[type="checkbox"] {
+    display: none;
+}
+
+.filter-list_grid {
+   margin-bottom: 49px; 
+}
+
+.filter-list_grid label {
+    display: block;
+    position: relative;
+    height: 15px;
+    padding-left: 35px;
+}
+
+.filter-list_grid label::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25px;
+    height: 25px;
+    background-image: url("../img/radio-off.svg");
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    opacity: 0.3;
+}
+
+.filter-list_grid label:hover::before {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.filter-list_grid input[type="radio"]:checked + label::before {
+    background-image: url("../img/radio-on.svg");
+}
+
+.filter-list_grid input[type="radio"]:disabled + label::before {
+    opacity: 0.1;
+}
+
+.filter-list_properties {
+    margin-bottom: 30px;
+}
+
+.filter-list_properties label {
+    display: block;
+    position: relative;
+    height: 15px;
+    padding-left: 35px;
+}
+
+.filter-list_properties label::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25px;
+    height: 25px;
+    background-image: url("../img/checkbox-off.svg");
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    opacity: 0.3;
+}
+
+.filter-list_properties label:hover::before {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.filter-list_properties input[type="checkbox"]:disabled + label::before {
+    opacity: 0.1;
+}
+
+.filter-list_properties input[type="checkbox"]:checked + label::before {
+    content: "";
+    position: absolute;
+    background-image: url("../img/checkbox-on.svg");
+}
+
+.filter-list_button {
+    width: 260px;
+}
+
+.filter-list_button:hover {
+    background-color: dfdfdf;
+}
+
+.filter-list_button:active {
+    background-color: d5d5d5;
+}
+

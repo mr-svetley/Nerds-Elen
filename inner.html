@@ -27,7 +27,50 @@
        <p class="header_name">Магазин готовых шаблонов</p>
     </header>
     
-    
+    <form method="get" action="https://echo.htmlacademy.ru" class="price-filter">
+        <fieldset class="filter-item">
+          <legend>Стоимость:</legend>
+          <div class="range-filter">
+              <div class="range-controls">
+                  <div class="scale">
+                      <div class="bar"></div>
+                  </div>
+                  <div class="toggle toggle-min"></div>
+                  <div class="toggle toggle-max"></div>
+              </div>
+              <div class="price-controls">
+                  <label class="min-price">от <input name="min-price" type="text" value="0"></label>
+                  <label class="max-price">до <input name="max-price" type="text" value="1500"></label>
+              </div>
+          </div>    
+        </fieldset>
+        <fieldset class="filter-list">
+          <legend>Сетка:</legend>
+            <div class="filter-list_grid">
+                <input type="radio" id ="adaptive" name="grid-type" value="Адаптивная" checked>
+                <label for="adaptive">Адаптивная</label><br>
+                <input type="radio" id="fix" name="grid-type" value="Фиксированная">
+                <label for="fix">Фиксированная</label><br>
+                <input type="radio" id="rubber" name="grid-type" value="Резиновая" disabled>
+                <label for="rubber">Резиновая</label>
+            </div>
+          <legend>Особенности</legend>
+            <div class="filter-list_properties">
+                <input type="checkbox" id="slaider" name="slaider" checked>
+                <label for="slaider">Слайдер</label><br>
+                <input type="checkbox" id="benefits" name="benefits">
+                <label for="benefits">Блок преимуществ</label><br>
+                <input type="checkbox" id="news" name="news" checked>
+                <label for="news">Новости</label><br>
+                <input type="checkbox" id="gallery" name="gallery">
+                <label for="gallery">Галерея</label><br>
+                <input type="checkbox" id="basket" name="basket">
+                <label for="basket">Корзина</label><br>
+            </div>
+            <button type="button" class="filter-list_button button button--grey">Показать</button>
+        </fieldset>
+        <!--Другие элементы формы-->
+    </form>
     
       <footer class="footer">
         <section class="our-contacts">
